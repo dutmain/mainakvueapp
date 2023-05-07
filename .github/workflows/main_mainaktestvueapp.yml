@@ -29,7 +29,7 @@ jobs:
         run: npm install -g webpack
       
       - name: Install Webpack CLI
-        run: npm i webpack-cli @webpack-cli/init
+        run: npm install -D webpack-cli
 
       - name: Build Project
         run: npm run build
