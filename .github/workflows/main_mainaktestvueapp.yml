@@ -14,6 +14,13 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      - name: Checkout Repo                          # Checkout repo
+        uses: actions/checkout@v1
+      - name: Use Node.js                            # Configure Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.9'                       # Set Node.js Version
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install Node JS
         run: npm install
