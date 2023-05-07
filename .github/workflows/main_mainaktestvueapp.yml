@@ -24,6 +24,9 @@ jobs:
 
       - name: Install Node JS
         run: npm install
+      
+      - name: Install Webpack
+        run: npm install -g webpack
 
       - name: Build Project
         run: npm run build
