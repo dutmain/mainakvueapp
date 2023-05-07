@@ -28,6 +28,9 @@ jobs:
       
       - name: Install Webpack CLI
         run: npm install --save-dev webpack-cli
+        
+      - name: INstall Typescript
+        run: npm install -g typescript
 
       - name: Build Project
         run: npm run build
