@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'mainakTestVueApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3637AEB4E784496F85837D3CF0FD3F7C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DCE3D519F2004A7093844D2276279934 }}
           package: .
